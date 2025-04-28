@@ -85,7 +85,7 @@ const config = {
               },
               {
                 label: "Contact Us",
-                to: "/docs/people/contact-directory.md",
+                to: "/docs/people/contact-directory",
               },
             ],
           },
