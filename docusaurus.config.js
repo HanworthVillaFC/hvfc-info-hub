@@ -81,11 +81,11 @@ const config = {
               },
               {
                 label: "Health & Safety",
-                to: "/docs/health-and-safety",
+                to: "/docs/health-safety",
               },
               {
                 label: "Contact Us",
-                to: "/docs/contact",
+                to: "/docs/people/contact-directory.md",
               },
             ],
           },
