@@ -1,3 +1,3 @@
-# Finance & Membership
+# Sponsors & Membership
 
-Learn about membership fees and financial processes in this section.
+Learn about membership fees and sponsorship in this section.
