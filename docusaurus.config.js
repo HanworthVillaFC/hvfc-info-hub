@@ -17,7 +17,7 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
+  plugins: [require.resolve("docusaurus-lunr-search")],
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -62,11 +62,11 @@ const config = {
             label: "Club Website",
             position: "right",
           },
-          {
-            href: "https://github.com/HanworthVillaFC/hvfc-info-hub",
-            label: "GitHub",
-            position: "right",
-          },
+          // {
+          //   href: "https://github.com/HanworthVillaFC/hvfc-info-hub",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
