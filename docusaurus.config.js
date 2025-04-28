@@ -81,7 +81,7 @@ const config = {
               },
               {
                 label: "Health & Safety",
-                to: "/docs/health-safety",
+                to: "/docs/health-and-safety",
               },
               {
                 label: "Contact Us",
