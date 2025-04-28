@@ -8,16 +8,56 @@ const config = {
   tagline:
     "Find everything you need to enjoy, support, and be part of Hanworth Villa FC - whether you're a player, coach, volunteer, parent, or young player.",
   favicon: "img/favicon.ico",
-
   url: "https://info.hvfc.club",
   baseUrl: "/",
-
   organizationName: "HanworthVillaFC", // GitHub org/user name
   projectName: "hvfc-info-hub", // GitHub repo name
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  plugins: [
+    require.resolve("docusaurus-lunr-search"),
+
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: ["appInstalled", "standalone", "queryString"],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/logo.svg",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json", // your PWA manifest
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "#ffffff",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#fff",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/img/apple-touch-icon.png",
+          },
+        ],
+      },
+    ],
+  ],
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
