@@ -14,7 +14,7 @@ const config = {
 
   organizationName: "HanworthVillaFC", // GitHub org/user name
   projectName: "hvfc-info-hub", // GitHub repo name
-
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
