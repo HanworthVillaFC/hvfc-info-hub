@@ -14,7 +14,7 @@ Welcome to the official documentation site for our club! This site is designed t
 - **Safeguarding**: Review our safeguarding policies and reporting procedures.
 - **Health & Safety**: Access our health and safety policies, first aid plans, and risk assessments.
 - **Policies**: Familiarize yourself with our code of conduct, complaints procedure, and equality policy.
-- **Finance & Membership**: Learn about membership fees and financial processes.
+- **Sponsors & Membership**: Learn about membership fees and club sponsorship.
 - **Resources**: Download forms and templates to assist with club activities.
 
 ## How to Use This Site
