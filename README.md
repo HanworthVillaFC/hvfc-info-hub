@@ -1,41 +1,10 @@
-# Website
+# HVFC Information Hub
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator, to serve as a central hub for all information related to Hanworth Villa FC. It includes resources for players, coaches, volunteers, parents, and young players.
 
-### Installation
+### Features
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **Club Manual**: Comprehensive documentation for club operations.
+- **Safeguarding**: Guidelines and policies to ensure safety.
+- **Health & Safety**: Essential health and safety information.
+- **Contact Information**: Easy access to contact details.
