@@ -4,7 +4,7 @@ This section includes the club's key policies and procedures:
 
 - [Code of Conduct](code-of-conduct.md)
 - [Anti-Bullying Policy](anti-bullying.md)
-- [Complaints Procedure](complaints-procedure.md)
+- [Complaints Procedure](complaints.md)
 - [Equality, Diversity, and Inclusion Policy](equality-diversity.md)
 - [Data and Information Sharing Policy](data-information.md)
 - [Social Media Policy](social-media.md)
